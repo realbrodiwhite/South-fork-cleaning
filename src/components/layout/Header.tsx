@@ -1,3 +1,4 @@
+
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
@@ -6,6 +7,7 @@ import { Menu, Sparkles } from 'lucide-react';
 const navItems = [
   { href: '/', label: 'Home' },
   { href: '/services', label: 'Services' },
+  { href: '/smart-services', label: 'Smart Services' },
   { href: '/self-help-portal', label: 'Self-Help Portal' },
   { href: '/ai-recommendations', label: 'AI Recommendations' },
   { href: '/resupply-checklist', label: 'Resupply Checklist' },
@@ -29,9 +31,9 @@ export default function Header() {
           </span>
         </Link>
         
-        <nav className="hidden flex-1 items-center space-x-4 md:flex">
+        <nav className="hidden flex-1 items-center space-x-1 md:flex">
           {navItems.map((item) => (
-            <Button key={item.label} variant="link" asChild className="text-muted-foreground hover:text-foreground">
+            <Button key={item.label} variant="link" asChild className="text-muted-foreground hover:text-foreground px-2 lg:px-3 text-xs lg:text-sm">
               <Link href={item.href}>{item.label}</Link>
             </Button>
           ))}
@@ -74,3 +76,5 @@ export default function Header() {
     </header>
   );
 }
+
+    
