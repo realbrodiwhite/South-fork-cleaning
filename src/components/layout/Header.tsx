@@ -1,7 +1,7 @@
 
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
+import { Sheet, SheetContent, SheetTrigger, SheetTitle } from '@/components/ui/sheet';
 import { Menu, Sparkles } from 'lucide-react';
 
 const navItems = [
@@ -56,6 +56,7 @@ export default function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent side="right" className="w-[300px] sm:w-[400px]">
+              <SheetTitle className="sr-only">Main Menu</SheetTitle>
               <nav className="flex flex-col space-y-4 pt-6">
                 {navItems.map((item) => (
                   <Link key={item.label} href={item.href} className="block px-2 py-1 text-lg hover:bg-accent hover:text-accent-foreground rounded-md">
