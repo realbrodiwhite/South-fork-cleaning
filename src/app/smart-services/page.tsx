@@ -116,13 +116,13 @@ export default function SmartServicesPage() {
           </Card>
         </div>
         <div className="mt-12 text-center">
-          <Image 
-            src="https://placehold.co/800x400.png" 
-            alt="Well-stocked kitchen and bathroom supplies" 
-            width={800} 
-            height={400} 
+          <Image
+            src="https://images.unsplash.com/photo-1600959902438-a7ac9406dbd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxDbGVhbmluZyUyMFN1cHBsaWVzJTIwY2VudGVyZWQlMjBvbiUyMGNsZWFuJTIwc3VyZmFjZXxlbnwwfHx8fDE3NDk2MTk4NDZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+            alt="Well-stocked kitchen and bathroom supplies"
+            width={800}
+            height={400}
             className="w-full max-w-4xl mx-auto h-auto object-cover rounded-lg shadow-xl"
-            data-ai-hint="organized supplies shelf"
+            data-ai-hint="organized supplies"
           />
         </div>
       </section>
@@ -135,11 +135,11 @@ export default function SmartServicesPage() {
         </p>
         <div className="grid gap-8 md:grid-cols-2 items-center">
             <div className="rounded-lg overflow-hidden shadow-xl">
-                <Image 
-                src="https://placehold.co/600x450.png" 
-                alt="Immaculately clean living room" 
-                width={600} 
-                height={450} 
+                <Image
+                src="https://placehold.co/600x450.png"
+                alt="Immaculately clean living room"
+                width={600}
+                height={450}
                 className="w-full h-auto object-cover"
                 data-ai-hint="spotless modern interior"
                 />
