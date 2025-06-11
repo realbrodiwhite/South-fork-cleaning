@@ -8,73 +8,73 @@ body {
 
 @layer base {
   :root {
-    --background: 188 78% 93%; /* Very light blue #E0F7FA */
-    --foreground: 200 15% 25%; /* Dark grayish blue for text */
+    --background: 210 40% 98%; /* Very light cool gray/almost white */
+    --foreground: 215 25% 25%; /* Dark cool gray for text */
     --card: 0 0% 100%; /* White for cards */
-    --card-foreground: 200 15% 25%; /* Dark grayish blue for card text */
+    --card-foreground: 215 25% 25%; /* Dark cool gray for card text */
     --popover: 0 0% 100%; /* White for popovers */
-    --popover-foreground: 200 15% 25%; /* Dark grayish blue for popover text */
-    --primary: 195 49% 64%; /* Light blue #72BCD4 */
+    --popover-foreground: 215 25% 25%; /* Dark cool gray for popover text */
+    --primary: 205 65% 50%; /* A calm, medium blue */
     --primary-foreground: 0 0% 100%; /* White text on primary */
-    --secondary: 190 50% 85%; /* Lighter shade of primary or complementary light gray */
-    --secondary-foreground: 200 15% 25%; /* Dark grayish blue text on secondary */
-    --muted: 190 50% 90%; /* Muted light blue/gray */
-    --muted-foreground: 200 10% 45%; /* Muted text color */
-    --accent: 55 100% 61%; /* Vibrant yellow #FFEB3B */
-    --accent-foreground: 55 100% 15%; /* Dark text on accent */
+    --secondary: 210 40% 92%; /* Lighter shade of background/primary */
+    --secondary-foreground: 215 25% 25%; /* Dark cool gray text on secondary */
+    --muted: 210 40% 94%; /* Muted light cool gray */
+    --muted-foreground: 215 15% 45%; /* Muted text color */
+    --accent: 350 75% 60%; /* A warm coral/pink for pop */
+    --accent-foreground: 0 0% 100%; /* White text on accent */
     --destructive: 0 84.2% 60.2%; /* Default red */
     --destructive-foreground: 0 0% 98%; /* Default light text on destructive */
-    --border: 195 30% 80%; /* Light blue/gray border */
+    --border: 210 30% 88%; /* Light cool gray border */
     --input: 0 0% 100%; /* White input background */
-    --ring: 195 49% 54%; /* Slightly darker primary for ring */
-    --chart-1: 12 76% 61%;
-    --chart-2: 173 58% 39%;
-    --chart-3: 197 37% 24%;
-    --chart-4: 43 74% 66%;
-    --chart-5: 27 87% 67%;
+    --ring: 205 65% 45%; /* Slightly darker primary for ring */
+    --chart-1: 205 65% 50%;
+    --chart-2: 350 75% 60%;
+    --chart-3: 190 50% 60%;
+    --chart-4: 45 70% 55%;
+    --chart-5: 270 60% 65%;
     --radius: 0.5rem;
-    --sidebar-background: 188 70% 97%; /* Adjusted for theme */
-    --sidebar-foreground: 200 15% 25%;
-    --sidebar-primary: 195 49% 64%;
+    --sidebar-background: 210 40% 97%; 
+    --sidebar-foreground: 215 25% 25%;
+    --sidebar-primary: 205 65% 50%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 55 100% 61%;
-    --sidebar-accent-foreground: 55 100% 15%;
-    --sidebar-border: 195 30% 80%;
-    --sidebar-ring: 195 49% 54%;
+    --sidebar-accent: 350 75% 60%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 210 30% 88%;
+    --sidebar-ring: 205 65% 45%;
   }
   .dark {
-    --background: 200 15% 15%; /* Dark background for dark mode */
-    --foreground: 188 78% 93%; /* Light blue text for dark mode */
-    --card: 200 15% 20%; /* Dark card background */
-    --card-foreground: 188 78% 93%;
-    --popover: 200 15% 20%;
-    --popover-foreground: 188 78% 93%;
-    --primary: 195 49% 64%; /* Keep primary same, or adjust if needed */
+    --background: 215 28% 17%; /* Dark cool gray */
+    --foreground: 210 40% 96%; /* Very light cool gray for text */
+    --card: 215 28% 22%; /* Slightly lighter dark gray for cards */
+    --card-foreground: 210 40% 96%;
+    --popover: 215 28% 22%;
+    --popover-foreground: 210 40% 96%;
+    --primary: 205 60% 55%; /* Adjusted blue for dark mode */
     --primary-foreground: 0 0% 100%;
-    --secondary: 200 15% 30%;
-    --secondary-foreground: 188 78% 93%;
-    --muted: 200 15% 25%;
-    --muted-foreground: 188 50% 70%;
-    --accent: 55 100% 61%; /* Keep accent same, or adjust if needed */
-    --accent-foreground: 55 100% 15%;
-    --destructive: 0 62.8% 30.6%;
+    --secondary: 215 28% 27%; /* Darker secondary */
+    --secondary-foreground: 210 40% 96%;
+    --muted: 215 28% 25%; /* Muted dark gray */
+    --muted-foreground: 210 30% 70%; /* Lighter muted text */
+    --accent: 350 70% 65%; /* Adjusted accent for dark mode */
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 70% 50%;
     --destructive-foreground: 0 0% 98%;
-    --border: 200 15% 35%;
-    --input: 200 15% 22%;
-    --ring: 195 49% 54%;
-    --chart-1: 220 70% 50%;
-    --chart-2: 160 60% 45%;
-    --chart-3: 30 80% 55%;
-    --chart-4: 280 65% 60%;
-    --chart-5: 340 75% 55%;
-    --sidebar-background: 200 15% 18%;
-    --sidebar-foreground: 188 78% 93%;
-    --sidebar-primary: 195 49% 64%;
+    --border: 215 28% 30%; /* Darker border */
+    --input: 215 28% 25%; /* Dark input background */
+    --ring: 205 60% 50%; /* Adjusted ring */
+    --chart-1: 205 60% 55%;
+    --chart-2: 350 70% 65%;
+    --chart-3: 190 45% 65%;
+    --chart-4: 45 65% 60%;
+    --chart-5: 270 55% 70%;
+    --sidebar-background: 215 28% 20%;
+    --sidebar-foreground: 210 40% 96%;
+    --sidebar-primary: 205 60% 55%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 55 100% 61%;
-    --sidebar-accent-foreground: 55 100% 15%;
-    --sidebar-border: 200 15% 35%;
-    --sidebar-ring: 195 49% 54%;
+    --sidebar-accent: 350 70% 65%;
+    --sidebar-accent-foreground: 0 0% 100%;
+    --sidebar-border: 215 28% 30%;
+    --sidebar-ring: 205 60% 50%;
   }
 }
 
