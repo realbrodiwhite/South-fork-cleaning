@@ -109,12 +109,11 @@ export default function HomePage() {
           </div>
           <div className="rounded-lg overflow-hidden shadow-xl">
             <Image 
-              src="https://placehold.co/600x400.png" 
+              src="https://images.unsplash.com/photo-1550963295-019d8a8a61c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxDbGVhbmVyc3xlbnwwfHx8fDE3NDk2MTc2OTB8MA&ixlib=rb-4.1.0&q=80&w=1080" 
               alt="Clean living space" 
               width={600} 
               height={400} 
               className="w-full h-auto object-cover"
-              data-ai-hint="clean living room" 
             />
           </div>
         </div>
